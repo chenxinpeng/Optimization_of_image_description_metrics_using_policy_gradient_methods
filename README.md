@@ -6,9 +6,9 @@ This is Tensorflow implement of paper: [Optimization of image description metric
 Go into the `./inception` directory, the python script which used to extract features is: `extract_inception_bottleneck_feature.py`.
 
 In this python script, there are few parameters you should modified:
- - `image_path`: the MSCOCO image path, e.g. `/path/to/msococo/train2014`, `/path/to/msococo/val2014`, /path/to/msococo/test2014
+ - `image_path`: the MSCOCO image path, e.g. `/path/to/msococo/train2014`, `/path/to/msococo/val2014`, `/path/to/msococo/test2014`
  - `feats_save_path`: the feature directory which you want to saved.
- - `model_path`: the pre-trained **inception-V3** tensorflow model
+ - `model_path`: the pre-trained **inception-V3** tensorflow model. And I uploaded this model on the Google Drive: [tensorflow_inception_graph.pb](https://drive.google.com/open?id=0B65vBUruA6N4Y2dtVHBJMVhodjA)
  
 
 After you modified the parameters, we can extract image features, in the terminal:
