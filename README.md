@@ -10,11 +10,12 @@ In this python script, there are few parameters you should modified:
  - `feats_save_path`: the feature directory which you want to saved.
  - `model_path`: the pre-trained **inception-V3** tensorflow model
  
- After you modified the parameters, we can extract image features, in the terminal:
+
+After you modified the parameters, we can extract image features, in the terminal:
  ```bash
  $ CUDA_VISIBLE_DEVICES=3 python extract_inception_bottleneck_feature.py
  ```
- Also, you can run the code without GPU:
+Also, you can run the code without GPU:
  ```bash
  $ CUDA_VISIBLE_DEVICES="" python extract_inception_bottleneck_feature.py
  ```
