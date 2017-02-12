@@ -24,5 +24,20 @@ In my experiment, I save the `train2014` image feature in the folder: `./incepti
 And at the same time, I saved the `train2014`+`val2014` image features in the folder: `./inception/train_val_feats`
 
 ### Step 2
+Run the scripts:
+```bash
+$ python pre_train_json.py
+$ python pre_val_json.py'
+$ python split_train_val_data.py
+```
+
 The python script `pre_train_json.py`, it is used to process the `./data/captions_train2014.json`, it generated a file: `./data/train_images_captions.pkl`, it is a dict which save the captions of each image, like this:
-![train_image_captions](https://github.com/chenxinpeng/Optimization-of-image-description-metrics-using-policy-gradient-methods/blob/master/image/1.png)
+<center>![train_image_captions](https://github.com/chenxinpeng/Optimization-of-image-description-metrics-using-policy-gradient-methods/blob/master/image/1.png)</center>
+
+The script `pre_val_json.py`, it is used to process the `./data/captions_val2014.json`. it generated a file: `./data/val_images_captions.pkl`.
+
+The script `split_train_val_data.py`, because according to the paper, it only use 1665 validation images, the other validation images are used to training. So, I split the validation images into two parts, the 0~1665 images are used to validation, the left are used to training.
+
+###Step 3
+
+
