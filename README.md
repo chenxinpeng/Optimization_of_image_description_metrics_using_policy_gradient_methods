@@ -25,4 +25,4 @@ And at the same time, I saved the `train2014`+`val2014` image features in the fo
 
 ### Step 2
 The python script `pre_train_json.py`, it is used to process the `./data/captions_train2014.json`, it generated a file: `./data/train_images_captions.pkl`, it is a dict which save the captions of each image, like this:
-
+![train_image_captions](https://github.com/chenxinpeng/Optimization-of-image-description-metrics-using-policy-gradient-methods/blob/master/image/1.png)
