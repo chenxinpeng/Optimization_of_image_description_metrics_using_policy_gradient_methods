@@ -27,7 +27,7 @@ And at the same time, I saved the `train2014`+`val2014` image features in the fo
 Run the scripts:
 ```bash
 $ python pre_train_json.py
-$ python pre_val_json.py'
+$ python pre_val_json.py
 $ python split_train_val_data.py
 ```
 
