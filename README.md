@@ -23,5 +23,5 @@ Also, you can run the code without GPU:
 In my experiment, I save the `train2014` image feature in the folder: `./inception/train_feats`, `val2014` image feature are saved in the folder: `./inception/val_feats`, and the `test2014` image features are saved in the folder: `test_feats`
 And at the same time, I saved the `train2014`+`val2014` image features in the folder: `./inception/train_val_feats`
 
-## Step 2
+### Step 2
 The python script `pre_train_json.py`, it is used to process the `captions_train2014.json`, 
