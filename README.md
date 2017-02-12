@@ -24,4 +24,5 @@ In my experiment, I save the `train2014` image feature in the folder: `./incepti
 And at the same time, I saved the `train2014`+`val2014` image features in the folder: `./inception/train_val_feats`
 
 ### Step 2
-The python script `pre_train_json.py`, it is used to process the `captions_train2014.json`, 
+The python script `pre_train_json.py`, it is used to process the `./data/captions_train2014.json`, it generated a file: `./data/train_images_captions.pkl`, it is a dict which save the captions of each image, like this:
+
