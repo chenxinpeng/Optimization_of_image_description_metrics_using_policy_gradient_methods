@@ -2,7 +2,9 @@
 This is Tensorflow implement of paper: [Optimization of image description metrics using policy gradient methods](https://arxiv.org/abs/1612.00370).
 
 ## Attention
-This codes are a little coarse, please contact me anytime if you have any doubt.
+This codes are a little coarse. When I worked on this paper, I also have some questions. But the authors didn't reply me after I sent e-mails, and I don't know why. 
+
+So, Please contact me anytime if you have any doubt.
 
 My e-mail: xinpeng_chen@whu.edu.cn
 
