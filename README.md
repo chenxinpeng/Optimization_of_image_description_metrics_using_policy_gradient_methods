@@ -38,6 +38,19 @@ The script `pre_val_json.py`, it is used to process the `./data/captions_val2014
 
 The script `split_train_val_data.py`, because according to the paper, it only use 1665 validation images, the other validation images are used to training. So, I split the validation images into two parts, the 0~1665 images are used to validation, the left are used to training.
 
-###Step 3
+### Step 3
+Run the scripts:
+```bash
+$ python create_train_val_all_reference.py
+```
+and
+```bash
+$ create_train_val_each_reference.py
+```
+
+Let me explain the two scripts, the first script `create_train_val_all_reference.py`, it will generate a JSON file named `train_val_all_reference.json`(about 70M), it saves the ground-truth captions of training and validation images.
+
+The second script `create_train_val_each_reference.py`, it will generate JSON files of every training and validation images. And it saves every JSON file in the folder: `./train_val_reference_json/`
+
 
 
