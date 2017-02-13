@@ -67,3 +67,4 @@ By the way, I filter the words more than 5 times, you can change this parameter 
 
 ### Step 5
 In this step, we follow the algorithm in the paper:
+<center>![algorithm](https://github.com/chenxinpeng/Optimization-of-image-description-metrics-using-policy-gradient-methods/blob/master/image/2.png)</center>
