@@ -66,3 +66,4 @@ This script will build the vocabulary dict. In the data folder, it will generate
 By the way, I filter the words more than 5 times, you can change this parameter in the script.
 
 ### Step 5
+In this step, we follow the algorithm in the paper:
