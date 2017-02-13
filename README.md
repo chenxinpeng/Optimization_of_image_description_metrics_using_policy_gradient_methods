@@ -93,7 +93,9 @@ After we get the B_phi model, we use RG to optimize the generation:
 >>> image_caption.Train_SGD_update()
 ```
 I have runned several epochs, here I compared the RL results with the no RL results:
+![results compared](https://github.com/chenxinpeng/Optimization-of-image-description-metrics-using-policy-gradient-methods/blob/master/image/3.png)
 
+This shows that the policy gradient method is beneficial for image caption.
 
 ### COCO evalution
 In the `./coco_caption/` folder, we can evaluate the generation results and our each trained model. Please see the python scripts.
