@@ -82,4 +82,14 @@ After training the basic model, you can test and validate the model on test data
 >>> image_caption.Val_with_MLE()
 ```
 
-Second, we train $B_phi$
+Second, we train B_phi using MC estimates of Q_theta on a small dataset D(1665 images):
+```bash
+>>> image_caption.Sample_Q_with_MC()
+>>> image_caption.Train_Bphi_Model()
+```
+
+After we get the B_phi model, we use RG to optimize the generation:
+```bash
+>>> image_caption.Train_SGD_update()
+```
+
