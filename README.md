@@ -68,3 +68,18 @@ By the way, I filter the words more than 5 times, you can change this parameter 
 ### Step 5
 In this step, we follow the algorithm in the paper:
 <center>![algorithm](https://github.com/chenxinpeng/Optimization-of-image-description-metrics-using-policy-gradient-methods/blob/master/image/2.png)</center>
+
+First, we train the the basic model with MLE(Maximum Likehood Estimation):
+```bash
+$ CUDA_VISIBLE_DEVICES=0 ipython
+>>> import image_caption
+>>> image_caption.Train_with_MLE()
+```
+
+After training the basic model, you can test and validate the model on test data and validation data:
+```bash
+>>> image_caption.Test_with_MLE()
+>>> image_caption.Val_with_MLE()
+```
+
+Second, we train $B_phi$
