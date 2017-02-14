@@ -8,7 +8,7 @@ So, Please contact me anytime if you have any doubt.
 
 My e-mail: xinpeng_chen@whu.edu.cn
 
-I will appreciate that if you have advice.
+I will appreciate that if you have any advice.
 
 ## How to run the code
 ### Step 1
