@@ -1,6 +1,9 @@
 # Optimization of image description metrics using policy gradient methods
 This is Tensorflow implement of paper: [Optimization of image description metrics using policy gradient methods](https://arxiv.org/abs/1612.00370).
 
+## Note
+This repository is not being actively maintained due to lack of time and interest. My sincerest apologies to the open source community for allowing this project to stagnate. I hope it was useful for some of you as a jumping-off point.
+
 ## Prerequisites
 - TensorFlow 0.10
 
